@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>jQuery 셀렉터</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script src="../../js/jquery-3.4.1.min.js"></script>
+<script src="script_02.js"></script>
+</head>
+<body>
+	ID셀렉터 - 웹 페이지 내에 단지 1개만인 요소에 대해 유효하게 이용
+	
+	<ul>
+		<li>fox</li>
+		<li id="cat">cat</li>
+		<li>fish</li>
+		<li id="dog">dog</li>
+		<li>bird</li>
+	</ul>
+	
+	<hr>
+	클래스 셀렉터 - 복수의 요소를 함께 취득하고 싶은 경우 가장 많이 사용
+	<ul>
+		<li class="man">John</li>
+		<li class="man">Bob</li>
+		<li class="woman">Mary</li>
+		<li class="man">Taro</li>
+		<li class="woman">Hanako</li>
+	</ul>
+	
+	<hr>
+	타입 셀렉터 - 지정하 요소명(element)의 요소를 모두 가져올 수 있다.
+	<h1>Heading</h1>
+	<p>The quick brown fox jumps over the lazy dog.</p>
+	<ul>
+		<li>The quick brown fox jumps over the lazy dog.</li>
+		<li>The quick brown fox jumps over the lazy dog.</li>
+	</ul>
+	<hr>
+	
+	자손 셀렉터 - ancestor_descendant
+	<div>
+		<p>I have a <strong>pen</strong>.</p>
+	</div>
+	<ul>
+		<li>His <strong>pen</strong> is red.</li>
+		<li>I need his <strong>pen</strong>.</li>
+	</ul>
+	<p>She doesn't need a <strong>pen</strong>.</p>
+	
+</body>
+
+</html>
